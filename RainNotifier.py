@@ -1,3 +1,6 @@
+#Created by Rachit
+#On 08-09-2025
+
 import requests
 from twilio.rest import Client
 import time
@@ -51,4 +54,5 @@ def check_weather():
 
 while True:
     check_weather()
+
     time.sleep(10800)
